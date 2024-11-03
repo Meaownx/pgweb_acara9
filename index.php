@@ -53,7 +53,7 @@ if ($conn->connect_error) {
             <!-- Kolom Tabel -->
             <div class="table-container">
                 <div class="text-end my-3">
-                    <a href="index.html" class="btn btn-info">Add Data</a>
+                    <a href="input.html" class="btn btn-info">Add Data</a>
                 </div>
                 <?php
                 $sql = "SELECT * FROM kecamatan";
